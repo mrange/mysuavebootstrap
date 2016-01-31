@@ -24,6 +24,6 @@ open Suave.Types
 let App : WebPart =
   choose
     [
-      GET >>= path      "/Hello"          >>= OK "Hi!"
+      GET >>= path      "/Hello"          >>= OK "Hi there!"
       OK "Oops! Try append to /Hello"     // Fallback
     ]
