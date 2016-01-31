@@ -16,7 +16,7 @@ This repository shows how to use [FAKE](https://github.com/fsharp/FAKE), [Paket]
 
 ## Build locally
 
-* Install dependencies with PAKET
+* Install dependencies with [PAKET](http://fsprojects.github.io/Paket/getting-started.html)
 * Run ```build.fsx``` to build web server binary
 * Or run ```fsi site/900.webserver.fsx```
 
